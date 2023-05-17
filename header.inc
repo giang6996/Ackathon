@@ -26,13 +26,13 @@ if (isset($_GET['logout'])) {
     <nav class="navbar_header">
 
         <img src="styles/images/book_logo.jpg" alt="" class="logo_header">
-        <img src="images/SBlogo.png" alt="" style="margin-left: 20px; width: 100px;">   
+        <img src="images/SBlogo.png" alt="" style="margin-left: 20px; width: 100px;">
 
       <ul class="navbar_header_ul">
         <li class="menu_list"><a href="index.php">Home</a></li>
         <li class="menu_list"><a href="product.php">Product</a></li>
         <li class="menu_list"><a href="feature.php">Feature</a></li>
-        <li class="menu_list"><a href="#">Powerpoint</a></li>
+        <li class="menu_list"><a href="https://docs.google.com/presentation/d/1Xc72srxVfJb2KKmyQMamVlhVpq7mFbDKHdMxTwWgAUc/edit?usp=sharing">Powerpoint</a></li>
         <li class="menu_list">
         <a href="cart.php?show_cart=1" class="checkout-button">Cart (<?php echo $total_quantity; ?>)</a>
         <span>
@@ -41,11 +41,11 @@ if (isset($_GET['logout'])) {
           <input type="hidden" name="total_price" value="<?php echo htmlspecialchars($total_price); ?>">
           <div class="checkoutproduct">
           </form>
-        </span>  
+        </span>
         </li>
       </ul>
 
-      
+
       <div class="profile_dropdown">
         <div onclick="toggle()" class="profile_dropdown_btn">
           <div class="profile_img"></div>
@@ -70,7 +70,7 @@ if (isset($_GET['logout'])) {
 
       </div>
 
-    </nav>  
+    </nav>
 
   </div>
 
