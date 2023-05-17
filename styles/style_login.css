@@ -1,0 +1,68 @@
+*{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: all .2s linear;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  list-style: none;
+}
+
+/*================================================ Login ================================================*/
+.login-card {
+    width: 300px;
+    margin: 2em auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #e8e8e8;
+    box-shadow: 2px 2px 10px #ccc;
+  }
+  
+  .login-header {
+    text-align: center;
+    margin-bottom: 20px
+  }
+  
+  .login-header .log {
+    margin: 0;
+    font-size: 24px;
+    color: black;
+  }
+  
+  .form-login {
+    margin-bottom: 15px;
+  }
+  
+  .login-label {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  #login_username,
+  #login_password {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: 0.5s;
+  }
+  
+  #login_submit {
+    width: 100%;
+    background-color: #FFCC33;;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #login_submit:hover {
+    background-color: #ccc;
+    color: black;
+  }

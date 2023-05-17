@@ -1,0 +1,334 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all .2s linear;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    list-style: none;
+}
+/*=========================================== Header ======================================*/
+.header{
+  width: 100%;
+  color: black;
+  background: #001848;
+}
+
+.navbar_header{
+  background: red;
+  width: 100%;
+  padding: 10px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.user_name{
+  font-weight: 600;
+}
+
+.logo_header{
+  width: 70px;
+  border-top-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+}
+
+.user_header{
+  width: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.navbar_header ul{
+  list-style: none;
+  width: 100%;
+  text-align: right;
+}
+
+.menu_list{
+  display: inline-block;
+  margin: 10px 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: black;
+}
+
+.menu_list a {
+  display: block;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+.menu_list:hover {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.menu_list:hover a {
+  color: black;
+}
+
+.navbar_header_ul{
+  margin-right: 30px;
+}
+
+.profile_dropdown {
+  position: relative;
+  width: fit-content;
+}
+
+.profile_dropdown_btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  width: 150px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  color: black;
+  cursor: pointer;
+  border: 1.5px solid green;
+  transition: box-shadow 0.2s ease-in, background-color 0.2s ease-in, border 0.3s;
+  background-color: white;
+}
+
+.profile_dropdown_btn:hover {
+  background-color: grey;
+}
+
+.profile_img {
+  position: relative;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: url(images/user_logo.png);
+  background-size: cover;
+}
+
+.profile_dropdown_list {
+  position: absolute;
+  top: 68px;
+  width: 220px;
+  right: 0;
+  border-radius: 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s;
+  background-color: grey;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.profile_dropdown_list.active {
+  max-height: 500px;
+}
+
+.profile_dropdown_list_item a {
+  display: flex;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: black;
+}
+
+.profile_dropdown_list_item{
+  width: 100%;
+  padding: 10px;
+}
+
+.profile_dropdown_list_item:hover {
+  background-color: Silver;
+}
+
+.checkout-button {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/*====================================Login====================================*/
+.login-card {
+  width: 300px;
+  margin: 2em auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #e8e8e8;
+  box-shadow: 2px 2px 10px #ccc;
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 20px
+}
+
+.login-header .log {
+  margin: 0;
+  font-size: 24px;
+  color: black;
+}
+
+.form-login {
+  margin-bottom: 15px;
+}
+
+.login-label {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+#login_username,
+#login_password {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+.login_button {
+  width: 100%;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#login{
+  background-color: #FFCC33;
+  color: black;
+}
+#login:hover {
+  background-color: #ccc;
+  color: black;
+}
+#sign_up{
+  background-color: black;
+  color: white;
+}
+#sign_up:hover{
+  background-color: white;
+  color: black;
+}
+/*====================================Footer====================================*/
+
+.main_footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer {
+    padding: 10px 0;
+  }
+
+  .col {
+    width: 25%;
+  }
+
+  .col .footerh4 {
+    font-size: 1.2rem;
+    color: black;
+    margin-bottom: 25px;
+    position: relative;
+  }
+
+  .col .footerh4::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 50px;
+    left: 0;
+    bottom: -8px;
+    background: sandybrown;
+  }
+
+  .col .colul .colli:not(last-child) {
+    margin-bottom: 15px;
+  }
+
+  .col .colul .colli .cola {
+    color: #9897a9;
+    font-size: 1.1rem;
+    display: block;
+    text-transform: capitalize;
+    transition: .4s;
+  }
+
+  .col .colul .colli .cola:hover {
+    color: grey;
+    transform: translateX(-12px);
+  }
+
+  .col .socials {
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .col .socials .colasocial {
+    height: 40px;
+    width: 40px;
+    background: red;
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    transition: .4s;
+  }
+
+  .col .socials .colasocial:hover {
+    transform: scale(1.2);
+    color: black;
+    background-color: white;
+  }
+
+
+@media (max-width: 1140px) {
+    #contact {
+      padding: 50px 8%;
+      transition: .4s;
+    }
+
+    .col {
+      width: 50%;
+      margin-bottom: 10px;
+      transition: .4s;
+    }
+}
+
+@media (max-width: 720px){
+    #contact {
+      padding: 50px 8%;
+      transition: .4s;
+    }
+
+}
+
+@media (max-width: 575px){
+    .col {
+      width: 100%;
+      transition: .4s;
+    }
+}
+
+#contact {
+    padding: 20px 20%;
+    transition: .4s;
+    font-family: 'Poppins', sans-serif;
+  }

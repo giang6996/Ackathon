@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Hero section styles */
+.hero {
+  background-image: url("hero-background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #ff5722;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Features section styles */
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.feature {
+  width: 33%;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.feature h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 16px;
+}
+
+.feature img {
+  width: 200px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Author Spotlight section styles */
+.author-spotlight {
+  background-color: #f5f5f5;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.author-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.author-card img {
+  width: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.author-card .author-info {
+  text-align: left;
+}
+
+.author-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.author-card p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Newsletter section styles */
+.newsletter {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #f5f5f5;
+}
+
+.newsletter h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.newsletter p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.newsletter form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter input[type="email"] {
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+.newsletter button {
+  background-color: #ff5722;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 14px;
+}
+
