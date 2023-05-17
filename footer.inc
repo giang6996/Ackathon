@@ -23,7 +23,7 @@
                         <li class="colli"><a class="cola" href="index.php">Home</a></li>
                         <li class="colli"><a class="cola" href="product.php">Product</a></li>
                         <li class="colli"><a class="cola" href="feature.php">Feature</a></li>
-                        <li class="colli"><a class="cola" href="">Powerpoint</a></li>
+                        <li class="colli"><a class="cola" href="https://docs.google.com/presentation/d/1Xc72srxVfJb2KKmyQMamVlhVpq7mFbDKHdMxTwWgAUc/edit?usp=sharing">Powerpoint</a></li>
                     </ul>
                 </div>
 
